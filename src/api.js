@@ -118,6 +118,13 @@ async function main () {
             ]
           },
           {
+            "type": "text",
+            "text": "清場時間: 1000~1030, 1600-1630",
+            "wrap": true,
+            "size": "xxs",
+            "color": "#0367D388"
+          },
+          {
             "type": "box",
             "layout": "horizontal",
             "contents": [
@@ -171,6 +178,13 @@ async function main () {
               }
             ],
             "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "清場時間: 1200~1230, 1600-1630",
+            "wrap": true,
+            "size": "xxs",
+            "color": "#0367D388"
           }
         ]
       },
