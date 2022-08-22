@@ -35,8 +35,8 @@ function sum(a, b) {
 }
 
 async function main () {
-  const zhangbei = await getZhangBei()
-  const zhangnan = await getZhangNan()
+  const zhangbei = await getZhangBei().catch(err => '-')
+  const zhangnan = await getZhangNan().catch(err => '-')
   // console.log(zhangbei, zhangnan)
   const messageJSON = [{
     type: "flex",
